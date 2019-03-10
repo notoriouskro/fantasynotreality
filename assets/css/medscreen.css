@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width:992px) {
+    .row{
+        margin: 0 auto;
+    }
+    
+    .portfolioIcon{
+        height: 125px;
+        width: 150px;
+    }
+    
+    .portfolioLabel {
+        background-color: #cc5500;
+        color: white;
+        width: 150px;
+        text-align: center;
+        font-family: 'Play', sans-serif;
+        
+    }
+  
+}

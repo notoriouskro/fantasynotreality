@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body,
+        html {
+            height: 70%;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("assets/images/football-field.jpg");
+
+            /* Full height */
+            height: 100%;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .mySlides {display:none;}
+    </style>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Play|Righteous"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="assets/css/smallscreen.css" />
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="assets/css/medscreen.css" />
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#"><img height="150px" width="auto"
+                src="assets/images/fnr.png" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="true"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav navbar-brand my-2 mr-sm-2">
+                <li>
+                    <a class="nav-link text-dark" href="#aMe">About<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#hall">Hall of
+                        Champions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#bylaw">Bylaws</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark"
+                        href="keepers.html">Keepers</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="parallax"></div>
+
+    <div class="aboutMe">
+
+        <div class="sectionTitle"><a name="aMe">It's Fantasy, Not
+                Reality</a>
+        </div>
+        <hr />
+        <div id="aboutMe">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="assets/images/johnny.jpg"
+                    style="width:100%">
+                <img class="mySlides" src="assets/images/sign.JPG"
+                    style="width:100%">
+                <img class="mySlides" src="assets/images/dudes.JPG"
+                    style="width:100%">
+                <img class="mySlides" src="assets/images/mahomes.jpeg"
+                    style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left"
+                    onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right"
+                    onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <p id="resume"><button type="button" class="btn btn-dark">
+                    <a href="./assets/images/kyle_robert_resume.pdf"
+                        target="blank" class="link">ESPN Home
+                        Page</a></button>
+                <button type="button" class="btn btn-dark"><a
+                        href="https://t.co/Zn4AkBhpcv" target="blank"
+                        class="link">Keepers</a></button>
+
+        </div>
+    </div>
+    <div class="parallax"></div>
+
+
+    <div class="aboutMe">
+        <div class="sectionTitle">
+            <a name="hall">Hall of Champions</a>
+            <i class="fas fa-trophy"></i>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Sean Smith</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2010</h5><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Jon Adams</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2011</h5><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Justin Caroddo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2012</h5><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Mike Green</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2013</h5><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Jon Adams</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2014</h5><i
+                            class="fas fa-trophy"></i><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Mike Green</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2015</h5><i
+                            class="fas fa-trophy"></i><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Brian Nakamoto</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2016</h5><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Justin Caroddo</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2017</h5><i
+                            class="fas fa-trophy"></i><i
+                            class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-white bg-secondary mb-3"
+                    style="max-width: 18rem;">
+                    <div class="card-header">Sean Smith</div>
+                    <div class="card-body">
+                        <h5 class="card-title">2018</h5><i
+                            class="fas fa-trophy"></i>
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="parallax"></div>
+
+
+    <div class="aboutMe">
+        <div class="sectionTitle">
+            <a name="bylaw">Bylaws</a>
+        </div>
+        <hr />
+
+
+        <div class="row justify-content-md-center" id="contactDiv">
+            <div class="col-lg">
+                <!-- The Modal -->
+                <div id="myModal1" class="modal">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>
+                            <h3>It's Fantasy not Reality</h3>
+                            <h4>Draft</h4>
+                            <p>The Draft will be held on the third weekend
+                                from August. The draft will be a live draft
+                                and owners need to do whatever they can to
+                                make the draft. I understand life happens
+                                and in special circumstances we can make
+                                changes. If you will not be able to make
+                                it, the more notice the better.</p>
+
+                            <p>The Draft will be held on the third weekend
+                                from August. The draft will be a live draft
+                                and owners need to do whatever they can to
+                                make the draft. I understand life happens
+                                and in special circumstances we can make
+                                changes. If you will not be able to make
+                                it, the more notice the better.</p>
+
+                            <p>The buy in will be $50 and is due at the
+                                draft
+                                Payouts are as follows ($300/$150/$100)
+                                $50 for most total points</p>
+                            <h4>Keepers</h4>
+                            <p>Any player drafted in the 7th round or later
+                                can be kept the following season assuming
+                                you drafted them and they are on your
+                                roster at the seasons end.</p>
+                            Each season any player kept, must be taking 2
+                            rounds earlier than their draft spot previous
+                            season.
+                        </p>
+                        <p> Keepers are due one week before the draft.</p>
+
+                        <h4>Scoring</h4>
+                        <p>All touchdowns scored are worth 6 points
+                            Every catch is worth 1/2 point</p>
+
+                        <h4>IR</h4>
+                        <p>There is an IR spot where any injured player
+                            based upon ESPN designation may be placed
+                        </p>
+                    </div>
+                </div>
+                <button id="myBtn1"><img
+                        src="assets/images/scrollRolled.jpg"
+                        class="conIcon"></button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="parallax"></div>
+
+    <footer class="page-footer font-small bg-light text-dark ">
+
+        <div class="footer-copyright text-center py-3">
+            © 2019 NotoriousKRO
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="assets/javascript/app.js"></script>
+    <script>
+    var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+    
+    </script>
+</body>
+
+</html>
