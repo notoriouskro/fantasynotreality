@@ -12,6 +12,10 @@
     .link {
         color: white;
     }
+    .card-body{
+        margin: 0 5%;
+        min-height: 325px;
+    }
 
 
     a{
