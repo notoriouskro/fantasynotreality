@@ -25,8 +25,14 @@
     .leagueSection{
     max-width: 100%;
     margin: 0% auto;
-       
+    padding: 5% 0% 5% 10%;
+    }
 
+    i{
+        padding: 3px;
+        float: right;
+        color: gold;
+        
     }
   
 }
