@@ -123,6 +123,14 @@
     margin: 1%;
 }
 
+.col-3{
+    border: black 2px solid;
+    max-width: 300px;
+    height: 325px;
+    text-align: center;
+    margin: 1%;
+}
+
 
 .li{
     padding-left: 10%;
@@ -197,6 +205,7 @@
     .col-3{
         border: black 2px solid;
         max-width: 170px;
+        height: 180px;
         text-align: center;
         margin: 1%;
     }
