@@ -53,6 +53,19 @@
         font-family: 'News Cycle', sans-serif;
     }
 
+    .keeperSection{
+        background-color:white;
+        border: 5px solid grey;
+        margin: 0;
+        height: auto;
+        /* padding: 5% 5% 5% 10%; */
+        font-family: 'News Cycle', sans-serif;
+    }
+
+    .headshot{
+        height: 200px;
+    }
+
 
     #resume{
         margin: 10% 0;
@@ -104,6 +117,13 @@
     .col-sm{
     border: black 2px solid;
     max-width: 300px;
+    text-align: center;
+    margin: 1%;
+}
+
+.col-4{
+    border: red 2px solid;
+    width: 300px;
     text-align: center;
     margin: 1%;
 }

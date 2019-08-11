@@ -44,6 +44,17 @@
         max-width: 90%;
     }
 
+    .col-3{
+        border: black 2px solid;
+        width: 200px;
+        text-align: center;
+        margin: 1%;
+    }
+
+    .headshot{
+        height: 100px;
+    }
+
 
     
 
