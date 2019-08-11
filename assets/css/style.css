@@ -63,7 +63,8 @@
     }
 
     .headshot{
-        height: 200px;
+        height: 225px;
+        width: auto;
     }
 
 
@@ -116,17 +117,11 @@
 
     .col-sm{
     border: black 2px solid;
-    max-width: 300px;
+    max-width: 350px;
     text-align: center;
     margin: 1%;
 }
 
-.col-4{
-    border: red 2px solid;
-    width: 300px;
-    text-align: center;
-    margin: 1%;
-}
 
 .li{
     padding-left: 10%;
