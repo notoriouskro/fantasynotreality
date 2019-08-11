@@ -205,6 +205,7 @@
 
     .col-sm{
         max-width: 100%;
+        margin-right:15px; 
     }
 
     .col-3{
