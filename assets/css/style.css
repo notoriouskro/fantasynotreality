@@ -51,7 +51,7 @@
         height: auto;
         padding: 5% 5% 5% 10%;
         font-family: 'News Cycle', sans-serif;
-    }
+     }
 
     .keeperSection{
         background-color:white;
@@ -126,9 +126,14 @@
 .col-3{
     border: black 2px solid;
     max-width: 300px;
+    min-width: 225px;
     height: 325px;
     text-align: center;
-    margin: 1%;
+    margin: 1%; 
+}
+.hallImage{
+    height: 200px;
+    width: auto;
 }
 
 
@@ -199,15 +204,15 @@
     }
 
     .col-sm{
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .col-3{
         border: black 2px solid;
-        max-width: 170px;
+        width: 200px;
         height: 180px;
         text-align: center;
-        margin: 1%;
+        margin-left: 25px;
     }
 
     .headshot{
